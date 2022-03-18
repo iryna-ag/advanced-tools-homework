@@ -96,3 +96,7 @@ p {
   text-align: left;
   padding: 0;
 }
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: 540px;
+}
